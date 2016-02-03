@@ -24,7 +24,9 @@ border-collapse:collapse;
 <h1 class="apple">ARSENAL</h1>
 <hr />
 <p style="text-indent:50px"><img src="index.jpg" style="float:left" />  Welcome to the world of arsenal!!Welcome to the world of arsenal!!Welcome to the world of arsenal!!</p>
+<%= image_tag 'index.jpg' %>
 <div id="boy"><img src="index1.jpg" /></div>
+<%= image_tag 'index1.jpg' %>
 <p style="text-indent:50px">Here you ll get to know all the news of arsenal.</p>
 <br /><br /><br /><br />
 <h2 style="text-align:center"> Hello</h2>
@@ -116,9 +118,7 @@ border-collapse:collapse;
 <li><strong>John Radford: 149(481)</strong></li>
 <li><strong>Jimmy Brain: 139(232)</strong></li>
 <ul>
-  <%= link_to 'About', about_path %>
-  <%= image_tag 'index.jpg' %>
-  <%= image_tag 'index1.jpg' %>
+  <%= link_to 'About', about_path %> | <%= link_to 'Alpha Blog', articles_path %>
   
 </body>
 </html>
